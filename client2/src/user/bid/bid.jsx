@@ -77,7 +77,7 @@ export const Bid = () => {
           <li key={index} className="comment-box">
             <div className="comment-number">{index + 1}.</div>
             <div className="comment-content">
-            {biditem.bId}-------------------------------------------------------------------------------------{'>'}{biditem.bAmount} $$
+            {biditem.bId}-{'>'}{biditem.bAmount} $$
             </div>
           </li>
         ))
